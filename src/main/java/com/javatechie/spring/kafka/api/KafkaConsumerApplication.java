@@ -14,7 +14,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class KafkaConsumerApplication {
 
 	List<String> messages = new ArrayList<>();
-
 	User userFromTopic = null;
 
 	@GetMapping("/consumeStringMessage")
